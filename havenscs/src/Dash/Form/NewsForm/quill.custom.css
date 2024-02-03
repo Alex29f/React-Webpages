@@ -1,0 +1,28 @@
+/* quill.custom.css */
+
+/* Overall editor background */
+.ql-container {
+  background-color: #000; /* black background */
+}
+
+/* Toolbar background */
+.ql-toolbar {
+  background: #333; /* dark grey */
+  border: none;
+}
+
+/* Toolbar button hover state */
+.ql-toolbar button:hover,
+.ql-toolbar button:focus,
+.ql-toolbar button.ql-active {
+  background: #333; /* slightly lighter grey */
+  color: white;
+}
+
+/* Customizing the color picker svg to be visible on the dark background */
+.ql-toolbar button.ql-color .ql-picker-label svg,
+.ql-toolbar button.ql-background .ql-picker-label svg {
+  fill: white; /* white icon */
+}
+
+/* You might want to customize other toolbar items (dropdowns, pickers) as well */

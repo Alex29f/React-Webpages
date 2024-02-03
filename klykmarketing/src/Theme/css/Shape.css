@@ -1,0 +1,48 @@
+.flower-background {
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.flower-center {
+    position: absolute;
+    width: 50px; 
+    height: 50px;
+    background: #FFC107;  /* Gold color for center */
+    border-radius: 50%; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+/* Create 8 petals for the flower using pseudo-elements */
+.flower-center::before,
+.flower-center::after,
+.flower-center span::before,
+.flower-center span::after,
+.flower-center span span::before,
+.flower-center span span::after,
+.flower-center span span span::before,
+.flower-center span span span::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+    background: #4CAF50; /* Green color for petals */
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* Positioning petals in different directions */
+.flower-center::before { transform: translate(-100%, -50%); }
+.flower-center::after { transform: translate(100%, -50%); }
+.flower-center span::before { transform: translate(-50%, -100%); }
+.flower-center span::after { transform: translate(-50%, 100%); }
+.flower-center span span::before { transform: translate(-100%, -100%); }
+.flower-center span span::after { transform: translate(100%, 100%); }
+.flower-center span span span::before { transform: translate(100%, -100%); }
+.flower-center span span span::after { transform: translate(-100%, 100%); }

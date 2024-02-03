@@ -1,0 +1,79 @@
+.swiper {
+  width: 90%;
+  height: 90%;
+}
+
+.mySwiper {
+  width: 90%;
+  height: 90%;
+  position: relative; /* Add relative positioning here */
+  padding: 0 50px; /* Add padding to prevent logos from getting too close to the arrows */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute; /* Absolute positioning */
+  top: 50%; /* Center vertically */
+  z-index: 10; /* Higher z-index to stay on top */
+}
+.swiper-button-prev {
+  left: 0px; /* Adjust as needed */
+}
+
+.swiper-button-next {
+  right: 0px; /* Adjust as needed */
+}
+
+
+/*.swiper-button-prev::before,
+.swiper-button-next::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 4px solid black;
+  border-top: none;
+  border-right: none;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+  position: absolute;
+  top: 50%;
+  transform-origin: center;
+}
+
+.swiper-button-prev::before {
+  left: 0px;
+  transform: rotate(45deg) translateY(-50%);
+}
+
+.swiper-button-next::before {
+  right: 0px;
+  transform: rotate(45deg) translateY(-50%);
+}
+
+.swiper-button-prev:hover::before,
+.swiper-button-next:hover::before {
+  transform: scale(1.1);
+}
+*/

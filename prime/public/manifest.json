@@ -1,0 +1,26 @@
+{
+  "short_name": "Prime IT",
+  "name": "Prime IT - IT risinājumi jūsu biznesam",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "PrimeIT_logo_white_128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "PrimeIT_logo_black_300x300.png",
+      "type": "image/png",
+      "sizes": "300x300"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "description": "Mūsu misija ir izveidot pielāgotas tīmekļa vietnes un tīmekļa lietojumprogrammas, kas pilnīgi atbilst jūsu unikālajām vajadzībām. Mēs esam šeit, lai klausītos, komunicētu un pārvērstu jūsu idejas realitātē."
+}
